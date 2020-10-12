@@ -2,18 +2,23 @@ from ytmusicapi import YTMusic
 from datetime import datetime
 
 def main():
-	playlist_name = datetime.now().strftime("%A, %d. %B %Y %I:%M%p")
+    print('Initializing...')
+    playlist_name = datetime.now().strftime("%A, %d. %B %Y %I:%M%p")
 
-	ytmusic = YTMusic('headers_auth.json')
+    ytmusic = YTMusic('headers_auth.json')
 
-	songs = ytmusic.get_library_songs(limit=10000)
+    print('Retrieving songs...')
+    songs = ytmusic.get_library_songs(limit=10000)
 
-	song_ids = list(map(lambda x: x['videoId'], songs))
+    song_ids = list(map(lambda x: x['videoId'], songs))
 
-	playlist = ytmusic.create_playlist(playlist_name, "Automatically created playlist")
+    print('Creating playlist...')
+    playlist = ytmusic.create_playlist(playlist_name, 'Automatically created playlist')
 
-	ytmusic.add_playlist_items(playlist, song_ids)
+    print('Adding songs to playlist...')
+    ytmusic.add_playlist_items(playlist, song_ids)
+    print('Done.')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
