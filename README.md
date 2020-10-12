@@ -79,5 +79,5 @@ A: Cuz i am lazy. Instructions will be the same for other OS, except the first p
 
 Q: a) It doesn't work! b) I got an error! c) README is too complex or disorienting, I cant understand how to make it works.
 
-A: Write [me](mailto:mail@siava.pp.ua) and i will try to help u (in case i wil, have time for it).
+A: Write [me](mailto:mail@siava.pp.ua) and i will try to help u (in case i will have time for it).
 
