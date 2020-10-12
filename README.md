@@ -67,3 +67,14 @@ PROFIT!!!!
 
 Scipt creates playlist named with current date and time. U will able rename playlist as u wish from Youtube Music i-face.
 If you want to setup your own playlist name – edit `main.py`.
+
+# FAQ
+Q: Why there are so many TYPOs and Grammar misstackes.
+A: London is the capital of Great Britain.
+
+Q: Why there are instructions only for Mac OS?
+A: Cuz i am lazy. Instructions will be the same for other OS, except the first part (Install the python lib). Sure, u could get it on your own.
+
+Q: a) It doesn't work! b) I got an error! c) README is too complex or disorienting, I cant understand how to make it works.
+A: Write [me](mailto:mail@siava.pp.ua) and i will try to help u (in case i wil, have time for it).
+
