@@ -69,7 +69,7 @@ Scipt creates playlist named with current date and time. U will able rename play
 If you want to setup your own playlist name – edit `main.py`.
 
 # FAQ
-Q: Why there are so many TYPOs and Grammar misstackes.
+Q: Why there are so many TYPOs and Grammar misstackes?
 
 A: London is the capital of Great Britain.
 
