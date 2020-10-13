@@ -24,9 +24,9 @@ Also these instructions available at `ytmusicapi` [lib page](https://ytmusicapi.
 * Open "Dev Instruments->Network"
 * Find request started with "browse"
 * If no such request, just click on "Library" once more
-* Click on request
+* Click on request (to see it's details)
 * In openned window look for "Request Headers" section
-* Copy evruthing started from "accept: */*" and to the end of section.
+* Copy everything started from "accept: */*" and to the end of section.
 * Save to some temporary file (to avoid losing this data)
 
 Your file should looks like this:
